@@ -3,13 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/yassi/Documents/NetBeansProjects/Projetdev/src/edu/Projetdev/tests/MainClass.java</file>
-            <file>file:/C:/Users/yassi/Documents/NetBeansProjects/Projetdev/src/edu/Projetdev/entities/Client.java</file>
-            <file>file:/C:/Users/yassi/Documents/NetBeansProjects/Projetdev/src/edu/Projetdev/services/VoyageCRUD.java</file>
-            <file>file:/C:/Users/yassi/Documents/NetBeansProjects/Projetdev/src/edu/Projetdev/entities/Voyage.java</file>
-            <file>file:/C:/Users/yassi/Documents/NetBeansProjects/Projetdev/src/edu/Projetdev/services/ReservationVoyageCRUD.java</file>
-            <file>file:/C:/Users/yassi/Documents/NetBeansProjects/Projetdev/src/edu/Projetdev/entities/ReservationVoyage.java</file>
-            <file>file:/C:/Users/yassi/Documents/NetBeansProjects/Projetdev/src/edu/Projetdev/services/ClientCRUD.java</file>
+            <file>file:/D:/NetBeansProjects/Connexion3A15/src/edu/connexion3a15/utils/MyConnection.java</file>
+            <file>file:/D:/NetBeansProjects/Connexion3A15/src/edu/connexion3a15/tests/MainClass.java</file>
+            <file>file:/D:/NetBeansProjects/Connexion3A15/src/edu/connexion3a15/entities/Personne.java</file>
+            <file>file:/D:/NetBeansProjects/Connexion3A15/src/edu/connexion3a15/services/PersonneCRUD.java</file>
         </group>
     </open-files>
 </project-private>
