@@ -65,7 +65,8 @@ public class ReservationVoyageCRUD
     
     
     
-    public void supprimerReservationVoyage(int id_res_voy) {
+
+       public void supprimerReservationVoyage(int id_res_voy) {
        try {
             
             String requette = ("delete from reservation_voyage where id_res_voy=?");
@@ -78,6 +79,34 @@ public class ReservationVoyageCRUD
         }
     }
     
+    
+    
+    
+    public List<ReservationVoyage>liste_jointure_reservation_voyages()
+        {
+            List<ReservationVoyage> liste_jointure_reservation_voyages= new ArrayList();
+        try {
+            String requette= "select v.id_voy,c.idc "
+                    + "from ( voyage v INNER JOIN reservation_voyage rv ON (rv.id_voy=v.id_voy) ) INNER JOIN client c ON (rv.idc=c.idc)";
+            Statement st= MyConnection.getInstance().getCnx().createStatement();
+            ResultSet rs = st.executeQuery(requette);
+            while(rs.next())
+            {
+                ReservationVoyage rvoy= new ReservationVoyage();
+                
+                rvoy.setId_voy(rs.getInt(1));
+                rvoy.setIdc(rs.getInt(2));
+
+                liste_jointure_reservation_voyages.add(rvoy);
+                
+            }
+        } catch (SQLException ex) {
+             System.out.println(ex.getMessage());
+             
+        }
+        return liste_jointure_reservation_voyages;
+        
+        }
     
     
     

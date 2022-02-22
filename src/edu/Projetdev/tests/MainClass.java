@@ -91,10 +91,11 @@ public class MainClass
         //rvcd.ajouterReservationVoyage(rv3);
         //rvcd.modifierReservationVoyage(rv3, 7);
         //rvcd.supprimerReservationVoyage(4);
-        //System.out.println(rvcd.liste_reservation_voyages());
+        System.out.println(rvcd.liste_reservation_voyages());
     
    
-    
+        System.out.println(rvcd.liste_jointure_reservation_voyages());
+       
     
         
         
